@@ -1,0 +1,42 @@
+h1{
+ 		color:#f0dd71;
+ 		text-align: center;}
+
+h3{
+ 		text-align:center;
+ 		background-color:#ff8484;}
+header {
+        text-align: center;
+        padding: 30px;
+        text-shadow: 5px 4px #701313;}
+#h2{
+	color:#f0bebe;
+}
+mark{
+		background-color:#ffed87;
+   	    color:#a73030;}
+ins{
+      color:#9f3856;}
+b{
+color:#ffed87;}
+ img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+figcaption{
+	text-align:center;}
+ol li {
+padding: 5px;
+margin-left: 35px;
+}
+a{
+  text-decoration: none;
+}
+.video {
+display: flex;
+margin-left:auto;
+margin-right:auto;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.p{
+    text-align: center;
+        padding: 10px;
+        text-shadow: 2px 2px #701313;
+        color:#262626;
+        text-transform: uppercase;
+}
+body{
+background: rgb(240,221,113);
+background: radial-gradient(circle, rgba(240,221,113,1) 0%, rgba(167,48,48,1) 100%);
+color:#3e0314;
+text-align: center;
+margin:2in;
+}
+article{
+	box-shadow: 0 20px rgba(0,0,0,0.8);
+	padding:15px;
+	color:#fff;
+	background:#262626;
+	border-radius: 15px;
+}
+a{
+	color:#f0dd71;
+}

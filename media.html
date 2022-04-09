@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="media.css">
+<title>media</title>
+<style>
+ 	body{
+ 		background: rgb(240,221,113);
+background: radial-gradient(circle, rgba(240,221,113,1) 0%, rgba(167,48,48,1) 100%);
+color:#3e0314;
+text-align: left;
+margin-top:2in;
+box-sizing: border-box;
+}
+.mn{
+	background-color: #f0dd71;
+	color:white;
+	padding:16px;
+	width:230px;
+	border-radius:30px;
+	border:none;
+	box-shadow: 5px 15px #701313;
+	position:fixed;
+	top:30px;
+	left:50px;	
+
+} 
+.mn a{
+	text-decoration: none;
+}
+.mn:hover{
+	background-color:#9f3856;
+}  
+
+ </style>
+</head>
+<br>
+<a href="meniu.html"><button class="mn">MENIU</button></a>
+<p class="p"><font face="Times New Roman" size="60">MEDIA</font></p>
+<body>
+<br>
+<br>
+<div class="carousel-container">
+		<div class="carousel-slide">
+			<img src="sdr3.jpg" id="lastClone">
+			<img src="1.jpg" >
+			<img src="2.jpg" >
+			<img src="sdr1.png" >
+			<img src="sdr2.png" >
+			<img src="sdr3.jpg" >
+			<img src="1.jpg" id="firstClone">
+		</div>
+	</div>
+
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<button id="prevBtn"> <i class="fas fa-angle-left"></i> </button>
+<button id="nextBtn"> <i class="fas fa-angle-right"></i> </button>	
+
+<script src="app.js"></script>
+<br>
+<br>
+<br>
+
+<section class="video">
+<iframe class="video" width="500" height="400" src="eye.mp4">
+</iframe>
+</section>
+
+</body>
+</html>

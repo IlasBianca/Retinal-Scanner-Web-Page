@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Scaner de retină</title>
+  <link rel="stylesheet" type="text/css" href="scanner retina.css"/>
+ <meta charset="UTF-8">
+ <style>
+ 	body{
+ 		background: rgb(240,221,113);
+background: radial-gradient(circle, rgba(240,221,113,1) 0%, rgba(167,48,48,1) 100%);
+color:#3e0314;
+text-align: left;
+margin:2in;}
+
+    #table{
+    	border:2px #701313;
+		border-collapse: collapse;
+		padding:13px 3px;
+		text-align: justify;
+		background-color:bisque ;
+    }
+    #table thead{
+    	text-align: center;
+    }
+.mn{
+	background-color: #f0dd71;
+	color:white;
+	padding:16px;
+	width:230px;
+	border-radius:30px;
+	border:none;
+	box-shadow: 5px 15px #701313;
+	position:fixed;
+	top:30px;
+	left:50px;	
+
+} 
+.mn a{
+	text-decoration: none;
+}
+.mn:hover{
+	background-color:#9f3856;
+}  
+.btn{
+	background-color: #f0dd71;
+	color:white;
+	padding:16px;
+	width:230px;
+	border-radius:30px;
+	border:none;
+	box-shadow: 5px 15px #701313;
+}
+.menu{
+top: 30px;
+right: 50px;
+text-align: center;
+position: fixed;
+display:inline-block;
+}
+.cont{
+	display: none;
+	position: absolute;
+
+}
+.cont ul{
+	list-style: none;
+	margin:0;
+    padding:0;
+
+}
+.cont ul li{
+	padding: 15px;
+	position: relative;
+	width: 200px;
+    vertical-align: middle;
+	background-color: #9f3856;
+	margin-top:5px;
+	border-top:1px solid lavender;
+	cursor:help;
+	display:block;
+	border-radius: 30px;
+}
+.cont ul li:hover{
+	background-color: #f0bebe; 
+}
+
+.cont ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+.menu:hover .cont{
+	display: block;
+}
+.menu:hover .btn{
+	background-color:#9f3856 ;
+}
+ </style>
+ </head>
+ <body>
+<header><h1>SCANER DE RETINĂ</h1>
+
+
+<a href="meniu.html"><button class="mn">MENIU</button></a>
+
+
+<div class="menu" align="center">
+	<button class="btn">CONȚINUT</button>
+	      <div class="cont">
+				<ul>
+					<li><a href="#INTRODUCERE"> INTRODUCERE </a></li>
+				    <li><a href="#METODĂ"> PRINCIPIU </a></li>
+			        <li><a href = "#APLICAȚII"> APLICAȚII ÎN MEDICINĂ </a></li>
+			        <li><a href="#4"> DISCUȚII </a></li>
+				</ul>
+			</div>
+	</div>
+
+</header>
+<hr>
+<br>
+<p><a id="INTRODUCERE"><h3>I.INTRODUCERE </h3></a>
+	<br>
+	<details>
+		<summary><font size="5">Pentru început , ce este <b>retina</b>?</font></summary>
+	</details>
+<p><font size="4">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<b>Retina</b> reprezintă un țesut subțire format din celule neuronale,localizată în porțiunea posterioară a ochiului, fiind vascularizată cu sânge de mici vase sanguine numite <b><ins>capilare</ins></b>.<br> 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datorită structurii complexe a capilarelor, <ins>retina fiecărei persoane este unică</ins> și cu ajutorul lor putem identifica mai ușor bolile ce o pot afecta.
+Retina rămâne de obicei neschimbată de la naștere până la moarte, dar există situații când șablonul retinei poate fi modificat <b>(1)</b> de o patologie ,cum ar fi diabetul sau <b>(2)</b> datorită unor tulburări degenerative ale retinei.
+</font></p>
+</p>
+<details>
+	<summary><font size="5">Conceptul</font></summary></details>
+<p><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+Dr. Carleton Simon și Dr. Isadore Goldstein au fost medicii care au descoperit modele unice ale vaselor sanguine în spatele ochilor , studiul fiind publicat în <i>New York State Journal of Medicine</i>(1935), iar în 1981 un model comercial de scaner retinal a fost brevetat de corporația <i>EyeDentify</i>, condusă de Robert ”Buzz” Hill.</font>
+</p>
+<figure>
+<img src="sdr1.jpg" alt="Scaner de retină"/><br>
+<figcaption><i>Scaner de retină</i></figcaption>
+	</figure>
+<br>
+<p>
+<a id="METODĂ"><h3> II. PRINCIPIU </h3></a>
+<font size="4">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Scanerul de retină mapează modele unice ale retinei,bazându-se pe <ins>prioprietatea capilarelor de a absorvi lumina mai ușor</ins> decât țesutul din jurul lor.<br>
+În principiu,un scanner de retină va străluci o lumina infraroșie ,de o intensitate scăzută & energie redusă,prin pupilă, până în spatele ochiului unde se află retina. Vasele sanguine din spatele ochiului vor absorbi cu ușurință lumina, luminând un model unic de vase sanguine care urmează să fie captat de scanner.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Odată ce dispozitivul scannerului surprinde o imagine retinală, un software specializat compilează caracteristicile unice ale rețelei de vase sanguine într-un șablon. Algoritmii de scanare retinală necesită o imagine de înaltă calitate. Șablonul de retină generat este, de obicei, unul dintre cele mai mici tehnologii biometrice.  
+</font></p>
+<figure>
+<img src="sdr2.jpg" alt="retina"><br>
+<figcaption><i>Retina -  hartă cu reperele examinate</i></figcaption></figure>
+<br>
+<figure>
+<img src="2.jpg" alt="exe"><br>
+<figcaption><i>Exemple</i></figcaption></figure>
+<br>
+<figure>
+	<img src="1.jpg" alt="exemple"><br>
+	<figcaption><i>Retina sănătoasă vs retina afectată de diabet</i></figcaption></figure>
+<br>
+
+<p>
+<a id="APLICAȚII"><h3> III. APLICAȚII ÎN MEDICINĂ</h3></a>
+<font size="4">
+<ol>
+<li>Ajută optometristul sau oftalmologul să găsească anumite boli și să verifice starea de sănătate a ochilor.</li>
+<li>Examinarea ochilor folosind scanarea retinei poate ajuta la diagnosticarea unor afecțiuni cronice de sănătate, cum ar fi hipertensiune și ateroscleroza</li>
+<li>Boli precum SIDA, sifilis, malarie, varicelă și boala Lyme, precum și boli ereditare, cum ar fi leucemia, limfomul și anemia celulelor secera, au, de asemenea, un impact asupra ochilor și pot fi detectate folosind tehnologia de scanare a retinei.</li>
+<li>Se folosește pentru investigarea următoarelor boli:
+  <ul>
+  <li><ins><a href="https://viatacudiabet.ro/diabetul/recent-diagnosticat/diabet-definitie-tipuri-si-simptome-6">
+Diabet</a></ins> -  poate deteriora vasele sangvine ,ducând în timp la pierderea vederii.</li>
+  <li><ins>Degenerarea maculară</ins> - partea centrală a retinei tale (macula) începe să se înrăutățească odată cu vârsta.</li>
+  <li><ins>Glaucom</ins> - o afecțiune a nervul optic (localizat în retină) care poate provoca pierderi de vedere.</li>
+  <li><ins><a href="https://ro.wikipedia.org/wiki/Cataract%C4%83">Cataracta</a></ins> - o afectiune degenerativa a cristalinului</li>
+</ul></li></ol>
+</font>
+</p>
+<figure>
+	<img src="sdr3.jpg" alt="alta retina"/><br>
+	<figcaption><i>În această figură este ilustrată retina unei persoane diagnosticate cu diabet. 
+Retina prezintă pete roșii ce arată hemoragii din capilare blocate, 
+iar petele galbene sunt zone de substanțe grase, scurse din vasele deteriorate.</i></figcaption>
+</a>
+</figure>          
+<br>
+
+<p>
+<a id="4"><h3>IV.DISCUȚII</h3></a>
+<details>
+	<summary><font size="5">Avantaje & Dezavantage</font></summary></details>
+<br>
+<table id="table" align="center" border="1";>
+<thead>
+	<tr>
+		<th>AVANTAJE</th>
+		<th>DEZAVANTAJE</th>
+	</tr>
+</thead>
+	<tbody>
+	<tr>
+		<th>aplicațiile sale în domeniul medical sunt în număr mare astfel încăt permite
+			specialiștilor să identifice simptome pe care nu le puteau observa până acum.</th>
+		<th>procesele de captură sunt lungi și dificile care pot cauza discomfort utilizatorului & aplicațiile folosite de utilizator sunt limitate</th>
+	</tr>
+	<tr>
+		<th>șabloanele procesase sunt precise și greu de falsificat</th>
+		<th>este incapabil să detecteze o boală în timp ce retina se află în stadiu de hemoragie.</th>
+	</tr>
+</tbody>
+</table>
+</p>
+<br>
+<details>
+	<summary><font size="5"> Motivarea </font></summary></details>
+<p><font size="4">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Am ales să dezbat această temă deoarece reprezintă o piesă de șah în lumea ingineriei medicale. Este o dovadă vie a evoluției tehnologice medicale, care continuă să evolueze odată cu dezvoltarea continuă a noilor sisteme de inginerie și sistemelor software.
+Fără acesta, nu am fi putut mări lista de simptome a multor boli care afectează retina.<br>
+Astfel , putem spune că scanner-ul de retină este un aparat interdisciplinar în sectorul medical, utilizat în mare parte în oftamologie, dar și în alte sectoare ale medicinii.
+</font></p><br>
+
+
+<section class="video">
+<iframe class="video" width="400" height="300" src="eye.mp4">
+</iframe>
+</section>
+
+</body>
+</html>

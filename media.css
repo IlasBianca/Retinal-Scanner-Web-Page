@@ -1,0 +1,59 @@
+
+.video {
+display: flex;
+margin-left:auto;
+margin-right:auto;
+}
+.p{
+    text-align: center;
+        padding: 10px;
+        text-shadow: 2px 2px #701313;
+        color:#262626;
+}
+
+.carousel-container{
+	width: 35%;
+	margin:auto;
+	border:5px solid #262626;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0 20px rgba(112, 19, 19,0.8);
+	color:#fff;
+	background:#262626;
+	border-radius: 15px;
+}
+.carousel-slide{
+	display:flex;
+	height:400px;
+
+}
+#prevBtn{
+width:70px;
+height:70px;
+z-index: 10;
+opacity: 0.2;
+left:32.7%;
+top:52.5%;
+font-size: 30px;
+color:#262626;
+position: absolute;
+background-color: seashell;
+border-radius: 50%;
+border-color: seashell;
+box-shadow: 0 5px rgba(112, 19, 19,0.8);
+}
+#nextBtn{
+width:70px;
+height:70px;
+z-index: 10;
+opacity: 0.2;
+left:64.2%;
+top:52.5%;
+font-size: 30px;
+color:#262626;
+position: absolute;
+background-color: seashell;
+border-radius: 50%;
+border-color: seashell;
+box-shadow: 0 5px rgba(112, 19, 19,0.8);
+}
